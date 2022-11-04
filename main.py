@@ -5,7 +5,6 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-start_time = time.time()
 driver = webdriver.Chrome(executable_path= "chromedriver.exe")
 
 driver.get("https://clever.com/oauth/ldap/login?target=NTdiMzYwYjIxNDJhNWIwMTAwMDAwYzAy;NGM2M2MxY2Y2MjNkY2U4MmNhYWM=;aHR0cHM6Ly9jbGV2ZXIuY29tL2luL2F1dGhfY2FsbGJhY2s=;ZDBmMWY3NjQ2MmJlYzE0MjA4MzQzNTc3OWMzZjYwYzdjMGE0MjUwNmU0ZTNmYTk5Yjg2NzhlMzZjZWRlMjcxMg==;Y29kZQ==;")
